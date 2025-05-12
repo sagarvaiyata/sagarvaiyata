@@ -1,89 +1,144 @@
-<!--
-  ┌─────────────────────────────────────────────────────────┐
-  │   1) Rename this file to README.md in a repo named    │
-  │      exactly your GitHub username, to enable profile  │
-  │      READMEs: https://docs.github.com/en/account-and- │
-  │      settings/setting-up-and-managing-your-           │
-  │      GitHub-profile/managing-your-profile-readme       │
-  └─────────────────────────────────────────────────────────┘
--->
+# Sagar Vaiyata
 
-<div align="center">
-  <h1>👋 Hi, I’m [Your Name]</h1>
-  <p>🔭 I’m currently working on <a href="https://github.com/your-username/your-biggest-project">Your Biggest Project</a></p>
-  <p>🌱 I’m learning <strong>Rust, Kubernetes & GraphQL</strong></p>
-  <p>👯 I’m looking to collaborate on open source tooling</p>
-  <p>💬 Ask me about JavaScript, Python, DevOps, Architecture</p>
-  <p>📫 How to reach me: <a href="mailto:you@example.com">you@example.com</a></p>
-  <br>
-  <!-- profile-views badge -->
-  <img src="https://komarev.com/ghpvc/?username=your-username&color=blue" alt="profile views"/>
-  <!-- GitHub stats card -->
-  <br>
-  <img src="https://github-readme-stats.vercel.app/api?username=your-username&show_icons=true&theme=radical" alt="GitHub stats" />
-</div>
+**Freelance AI Engineer • Part-Time Professor @ Humber College, Toronto**
+[sagarvaiyata@gmail.com](mailto:sagarvaiyata@gmail.com) • [LinkedIn](https://linkedin.com/in/sagarvaiyata)
 
 ---
 
-## 🚀 Featured Projects
+## 👋 About Me
 
-<table>
-  <tr align="center">
-    <td>
-      <a href="https://github.com/your-username/project-one">
-        <img src="https://raw.githubusercontent.com/your-username/project-one/main/screenshot.png" width="120px" alt="Project One"/>
-        <br/>
-        <strong>Project One</strong>
-      </a>
-      <p>A web app that does XYZ using React & Firebase.</p>
-      <p>
-        <img src="https://img.shields.io/badge/React-17.0-blue" alt="React" />
-        <img src="https://img.shields.io/badge/Firebase-9.0-orange" alt="Firebase" />
-      </p>
-    </td>
-    <td>
-      <a href="https://github.com/your-username/project-two">
-        <img src="https://raw.githubusercontent.com/your-username/project-two/main/screenshot.png" width="120px" alt="Project Two"/>
-        <br/>
-        <strong>Project Two</strong>
-      </a>
-      <p>CLI tool in Go for automating ABC workflows.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Go-1.20-cyan" alt="Go" />
-        <img src="https://img.shields.io/badge/CLI-tool-green" alt="CLI" />
-      </p>
-    </td>
-    <!-- add more project cells as needed -->
-  </tr>
-</table>
+I’m an AI Engineer and educator with 1.5 years of experience training LLMs and diffusion models, and over two years as a full-stack developer. As a part-time professor and research assistant at Humber College, I’ve built custom chatbots, pre-trained large models with LoRA/Dreambooth, and guided students through hands-on AI projects.
 
 ---
 
-## 📂 All Repositories
+## 🚀 Projects Showcase
 
-<details>
-  <summary>Click to expand full list of my repos</summary>
+Below are the AI-agent projects I conceived and built solo, demonstrating deep expertise in modern frameworks and end-to-end pipelines.
 
-  | Repo | Description | Language | Link |
-  |------|-------------|----------|------|
-  | [project-one](https://github.com/your-username/project-one) | A web app that does XYZ.      | JavaScript | 🔗 |
-  | [project-two](https://github.com/your-username/project-two) | CLI tool for ABC.             | Go         | 🔗 |
-  | [project-three](https://github.com/your-username/project-three) | Data analysis in Python.      | Python     | 🔗 |
-  <!-- …and so on—add one row per repo… -->
+### 1. [Travel Advisor AI Agent](https://github.com/sagarvaiyata/travel-advisor-adk-agent)
 
-</details>
+**Tagline:** A conversational assistant that plans trips, suggests itineraries, and books flights/hotels using Google’s ADK.
+**Tech Stack:** Google ADK, Dialogflow, Cloud Functions
+**Summary:** Leverages ADK’s built‑in planning modules to manage multi-step dialogues, integrates real‑time flight/hotel APIs, and deploys on Cloud Run for auto‑scaling.
+
+### 2. [RAG Chatbot (Google ADK + Streamlit)](https://github.com/sagarvaiyata/rag-application-adk)
+
+**Tagline:** Retrieval-Augmented chatbot with vector search and live UI.
+**Tech Stack:** Google ADK, Streamlit, FAISS, Python
+**Summary:** Combines ADK’s RAG utilities with FAISS-powered embeddings, wrapped in a Streamlit interface for rapid prototyping and demo.
+
+### 3. [RAG Chatbot (LangChain + Streamlit)](https://github.com/sagarvaiyata/rag-application-langchain)
+
+**Tagline:** Lightweight RAG-powered assistant built on LangChain.
+**Tech Stack:** LangChain, Streamlit, OpenAI API, FAISS, Python
+**Summary:** Modular pipeline using LangChain chains and agents, supporting custom prompt templates and local vector store for offline capability.
+
+### 4. [Real Estate AI Agent](https://github.com/sagarvaiyata/ai-langchain-agent)
+
+**Tagline:** Property search and recommendation bot with LangChain.
+**Tech Stack:** LangChain, FastAPI, Docker, Python
+**Summary:** Integrates LangChain’s planner agent with property database queries; features interactive maps, budget filters, and PDF report generation.
+
+### 5. [PaperWatch AI Agent](https://github.com/sagarvaiyata/ai-autogen-agent-paperwatch)
+
+**Tagline:** Automated research assistant for fetching ArXiv papers.
+**Tech Stack:** Microsoft AutoGen, Python, PlayWright, Google Custom Search
+**Summary:** Uses AutoGen for orchestrating multi-step retrieval, scraping, and summary generation; deploys as serverless functions for cost efficiency.
+
+### 6. [AI Reporting Application](https://github.com/sagarvaiyata/incident-report-app)
+
+**Tagline:** Intelligent incident-reporting platform with automated insights.
+**Tech Stack:** Angular, Flask, OpenAI API, Docker
+**Summary:** Frontend in Angular connects to Flask API that processes user-submitted incidents through LLM for generating structured reports following specific organizational formats.
+
+---
+## ⚡ Technical Skills
+
+### 🚀 Programming & Scripting
+
+* **Languages:** Python, SQL, JavaScript, TypeScript, C#
+* **AI Frameworks & Libraries:** LangChain, Google’s ADK, Microsoft AutoGen, Huggingface Transformers, OpenAI API
+* **Web Development:** HTML, CSS, Angular, Vue.js, ASP.NET MVC, Flask, FastAPI, Streamlit
+
+### 🤖 Artificial Intelligence & Machine Learning
+
+* **Advanced Techniques:** Predictive modeling, classification, forecasting, optimization
+* **Natural Language Processing:** LLMs, Fine-tuning, Retrieval-Augmented Generation (RAG), Custom Chatbots
+* **Generative AI:** Dreambooth, Stable Diffusion, Fine-tuning with LoRA, Custom Diffusion Models
+* **Core Libraries:** Pandas, scikit-learn, XGBoost, spaCy, NumPy, Matplotlib, Keras
+
+### 🌐 API & Web Frameworks
+
+* **Python-based:** Flask, FastAPI, Streamlit
+* **Full-Stack Development:** MEAN stack (MongoDB, Express.js, Angular, Node.js)
+* **AI Agent Frameworks:** Google’s ADK, Microsoft AutoGen, LangChain
+
+### 🚀 Containerization & DevOps
+
+* **Containerization:** Docker for containerized deployments
+* **Cloud Orchestration:** Kubernetes for scalable applications
+* **Cloud Platforms:** Azure Cloud (Azure AI Services), AWS, Google Cloud Platform
+
+### 📊 Big Data & Data Integration
+
+* **Scalable Data Pipelines:** Building ETL workflows, Data Warehousing
+* **Vector Search:** FAISS for efficient vector similarity search in NLP tasks
+* **Large Language Models:** Deployment, fine-tuning, and evaluation of LLMs in RAG setups
+
+### ☁️ Cloud & Infrastructure
+
+* **Azure Cloud:** Azure Machine Learning, Azure Kubernetes Service
+* **AWS & Google Cloud Platform:** Custom AI service deployment, serverless architectures
 
 ---
 
-## 📫 Connect with me
+## ⚖️ AI-Agent Framework Comparison
 
-|   |   |
-|---|---|
-| **LinkedIn** | [![LinkedIn][linkedin-badge]][linkedin-url] |
-| **Twitter**  | [![Twitter][twitter-badge]][twitter-url]   |
-| **Email**    | ✉️ [you@example.com](mailto:you@example.com) |
+| Feature                              | Google ADK | Microsoft AutoGen | LangChain |
+| ------------------------------------ | :--------: | :---------------: | :-------: |
+| **Official Support & Documentation** |    ★★★★★   |       ★★★★☆       |   ★★★★☆   |
+| **Multi-Agent Orchestration**        |    ★★★★★   |       ★★★☆☆       |   ★★★★☆   |
+| **Built‑in Planning & RAG Modules**  |    ★★★★★   |       ★★★☆☆       |   ★★★☆☆   |
+| **Ease of Integration (Cloud/Edge)** |    ★★★★★   |       ★★★★☆       |   ★★★☆☆   |
+| **Community & Ecosystem**            |    ★★★★☆   |       ★★★☆☆       |   ★★★★★   |
+| **Flexibility & Extensibility**      |    ★★★★★   |       ★★★★☆       |   ★★★★☆   |
 
-[linkedin-badge]: https://img.shields.io/badge/LinkedIn-Profile-blue?logo=linkedin
-[linkedin-url]:  https://linkedin.com/in/your-profile
-[twitter-badge]:  https://img.shields.io/badge/Twitter-@yourhandle-1DA1F2?logo=twitter
-[twitter-url]:    https://twitter.com/yourhandle
+> **Note:** Google ADK stands out for its end-to-end, officially supported agent toolkit and first‑party integrations across planning, dialog, and RAG workflows.
+
+---
+
+## 💼 Professional Experience
+
+### Humber College, Toronto, ON
+
+**Professor** | Jan 2025 – Apr 2025
+
+* Delivered interactive AI lectures (25+ students) with real-world case studies.
+* Designed curriculum integrating industry trends in LLMs and diffusion models.
+* Mentored labs and capstone teams, fostering collaborative problem-solving.
+
+**Research Assistant (AI/ML)** | Aug 2023 – Present
+
+* Engineered full-stack AI applications (MEAN + Flask) for confidential clients.
+* Pre-trained diffusion models with Dreambooth & LoRA on custom datasets.
+* Containerized deployments using Docker, aligning with DevOps best practices.
+* Comparative analysis of LLMs for optimal RAG architectures; optimized with FAISS.
+* Integrated FastAPI and Flask for scalable, secure AI service endpoints.
+
+### Odysseus Solutions, Vadodara, IN
+
+**Software Developer / Data Scientist** | Dec 2020 – Dec 2022
+
+* Built responsive dashboards (Angular, Vue.js, Vanilla JS) with ASP.NET MVC backends.
+* Designed secure APIs in ASP.NET & Flask, enabling advanced analytics integration.
+* Reduced dashboard load times by 20% through performance tuning.
+* Collaborated cross-functionally to deliver scalable solutions aligned with business goals.
+
+---
+
+## 📫 Contact & Next Steps
+
+Feel free to reach out for collaborations, speaking engagements, or career opportunities:
+
+* 📧 [sagarvaiyata@gmail.com](mailto:sagarvaiyata@gmail.com)
+* 🔗 [LinkedIn](https://linkedin.com/in/sagarvaiyata)
