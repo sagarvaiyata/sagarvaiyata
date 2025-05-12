@@ -51,6 +51,13 @@ Below are the AI-agent projects I conceived and built solo, demonstrating deep e
 **Tech Stack:** Angular, Flask, OpenAI API, Docker
 **Summary:** Frontend in Angular connects to Flask API that processes user-submitted incidents through LLM for generating structured reports following specific organizational formats.
 
+### 7. [iLore Application (Angular + Flask + GCP + Stable Diffusion)](https://github.com/sagarvaiyata/ilore)
+
+**Tagline:** Personalized AI-Powered Image Generation for Kids
+**Tech Stack:** Angular, Flask, GCP, Stable Diffusion Pretraining, Docker
+**Summary:** An end-to-end web application that generates customized user images (T-shirts, posters, calendars, stories) using Stable Diffusion, primarily targeting children.Users can upload images, customize prompts, and generate personalized images for various merchandise.
+
+
 ---
 ## ⚡ Technical Skills
 
@@ -92,16 +99,17 @@ Below are the AI-agent projects I conceived and built solo, demonstrating deep e
 
 ---
 
-## ⚖️ AI-Agent Framework Comparison
+### 🆚 AI Agent Framework Comparison
 
-| Feature                              | Google ADK | Microsoft AutoGen | LangChain |
-| ------------------------------------ | :--------: | :---------------: | :-------: |
-| **Official Support & Documentation** |    ★★★★★   |       ★★★★☆       |   ★★★★☆   |
-| **Multi-Agent Orchestration**        |    ★★★★★   |       ★★★☆☆       |   ★★★★☆   |
-| **Built‑in Planning & RAG Modules**  |    ★★★★★   |       ★★★☆☆       |   ★★★☆☆   |
-| **Ease of Integration (Cloud/Edge)** |    ★★★★★   |       ★★★★☆       |   ★★★☆☆   |
-| **Community & Ecosystem**            |    ★★★★☆   |       ★★★☆☆       |   ★★★★★   |
-| **Flexibility & Extensibility**      |    ★★★★★   |       ★★★★☆       |   ★★★★☆   |
+| Feature | Google ADK | Microsoft AutoGen | LangChain |
+| --- | --- | --- | --- |
+| **Ease of Use** | Intuitive API design, rapid setup | Medium complexity | Moderate, but highly modular |
+| **Flexibility** | Supports complex agent configurations | Predefined agent templates | High, modular agent definition |
+| **Deployment** | Scalable, Google Cloud optimized | Azure-optimized, manual scaling | Customizable, suitable for various clouds |
+| **Built-in Security** | GCP security, OAuth2 | Limited, user-defined | Customizable with external services |
+| **LLM Integration** | Native support with Google APIs | Azure Cognitive Services | OpenAI, Huggingface, custom models |
+| **Customizability** | High (Custom agents, dynamic planning) | Limited to predefined agent roles | Extremely high (customizable workflows) |
+| **Performance** | Optimized with Google Cloud's infra | Azure dependent | Depends on environment |
 
 > **Note:** Google ADK stands out for its end-to-end, officially supported agent toolkit and first‑party integrations across planning, dialog, and RAG workflows.
 
